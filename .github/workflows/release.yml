@@ -42,7 +42,7 @@ jobs:
             echo "🚀 New version $VERSION detected — will publish"
           fi
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         if: steps.check.outputs.skip == 'false'
         with:
           node-version: '20'
