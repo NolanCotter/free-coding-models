@@ -428,3 +428,10 @@ MIT © [vava](https://github.com/vava-nessa)
 <p align="center">
   <sub>Anonymous usage data collected to improve the tool. No personal information ever.</sub>
 </p>
+
+
+## Codex summary
+
+The autonomous multi-agent factory scaffold now lives in this repository under agent-factory-core/. It is a SvelteKit app shell with Convex for persistent workflow state and Inngest for event-driven orchestration, plus a starter UI, Convex schema, and Inngest endpoint for coordinating future agents and services.
+
+The standalone agent-factory-core repo can be treated as superseded by this consolidated fork.
